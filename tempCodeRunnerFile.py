@@ -1,0 +1,1 @@
+if days_on > 0 :

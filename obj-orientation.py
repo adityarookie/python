@@ -5,3 +5,4 @@ class fruit:
     print("i am",taste)
 
 obj = fruit()
+

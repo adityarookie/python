@@ -1,0 +1,17 @@
+file = open("student1.txt","r")
+print(file.read())
+file.close()
+
+file = open("student2.txt","r")
+print(file.read())
+file = open("student2.txt","w")
+file.write("Hi my name is sanju, and i like to play video games.I am grade 9")
+file = open("student2.txt","r")
+print(file.read())
+file.close()
+
+file = open("student3.txt","a")
+file.write("I am grade 11")
+file = open("student3.txt", "r")
+print(file.read())
+file.close()

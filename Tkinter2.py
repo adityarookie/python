@@ -10,6 +10,7 @@ upload = Image.open("dog.jpg")
 image = ImageTk.PhotoImage(upload)
 
 label = Label(x,image = image, height = 400, width = 320)
+
 label.pack()
 
 x.mainloop()
